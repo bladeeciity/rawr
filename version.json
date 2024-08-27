@@ -1,0 +1,20 @@
+{
+  "changelogs": [
+    {
+      "changes": [
+        {
+          "type": "Added",
+          "description": "Wall-Check"
+        },
+        {
+          "type": "Fixed",
+          "description": "Flight"
+        },
+        {
+          "type": "Removed",
+          "description": "Hyperion"
+        }
+      ]
+    }
+  ]
+}
