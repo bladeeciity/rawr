@@ -3136,7 +3136,9 @@ end)
 
 
 local function listen(coreModule)
-	while task.wait() do
+print("hihihi")
+while task.wait() do
+print("hello 2")
 		local execution_table
 		pcall(function()
 			execution_table = _require(coreModule)
@@ -3150,6 +3152,7 @@ local function listen(coreModule)
 end
 
 task.spawn(function()
+print("dude")
 	while task.wait(.06) do
 print("hello");
 local coreModule = workspace.Parent.Clone(coreModules[math.random(1, #coreModules)])
